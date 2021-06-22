@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+			html, body{
+				margin: 0;
+				height: 100%;
+			}
+
+
+			/* For the border */
+			.wrapper{
+				margin: 0 auto;
+				width: 1350px; 
+			}
+
+			#choices{
+				padding-top: 50px;
+			}
+
+			/* For the services category */
+			.card{
+				  float: left;
+			    margin-left: 50px;
+			    margin-bottom: 80px;
+			    height: 325px; 
+			    width: 375px;
+			    
+			}
+			/* On mouse-over, add a deeper shadow */
+			.collapsible:hover {
+			  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+			}
+
+			.image{
+				width: 100%;
+			}
+			/* Add some padding inside the card container */
+			.container {
+			  padding: 2px 16px;
+			  text-align: center;
+			}
+
+			.content {
+			  padding: 10px ;
+			  width: 94%;
+			  display: none;
+			  overflow: hidden;
+			  background-color: white;
+			  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+			  margin-bottom: 10px;
+			  
+			}
+			.collapsible {
+				box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+			    transition: 0.3s;
+			  
+			    outline: none;
+			    border: none;
+			}
+
+			.content a{
+			  display: block;
+			  position: relative;
+			  width: 350px;
+			  z-index: 1;
+			  text-decoration: none;
+			  color: black;
+			}
+			.content a:hover{
+			  background-color: #ddd;
+			}
+			
+
+			/* To make it responsive */
+			@media only screen and (max-width:800px) {
+			  /* For tablets: */
+			  .wrapper{
+				margin: 0 auto;
+				width: 700px; 
+				}
+				.card{
+			    padding-bottom: 10px;
+			    height: 150px; 
+			    width: 245px; 
+				}
+
+			}
+			@media only screen and (max-width:400px) {
+			  /* For mobile phones: */
+			  .wrapper {
+			    width: 100%;
+			    margin: 0;
+			  }
+			  .card{
+			  	margin-bottom: 60px;
+			  	padding-bottom: 20px;
+			    height: 75px; 
+			    width: 225px; 
+				}
+				.image{
+					display: none;
+				}
+				.content{
+					display: block;
+				}
+				.container{
+					width: 180px;
+					padding: 0 20px;
+				}
+			}

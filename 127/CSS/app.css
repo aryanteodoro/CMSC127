@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    background-color: whitesmoke;
+    margin: 0px 0px;
+    scroll-behavior: smooth;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://www.wallpapertip.com/wmimgs/4-45796_food-photography-wallpaper-food-hd.jpg');
+    background-size: 100%;
+}
+.banner .content {
+    max-width: 900px;
+    text-align: center;
+}
+.banner .content h2 {
+    font-size: 5em;
+    color: white
+}
+.banner .content p {
+    font-size: 1em;
+    color: white
+}
+.banner-button {
+    font-size: 1em;
+    color: white;
+    background: #ff0157;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.banner-button:hover {
+    letter-spacing: 6px;
+}   
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1px 50px;
+    z-index: 10000;
+    display: flex;
+    transition: 0.5s;
+    background-color: rgb(10, 10, 10);
+}
+header .logo {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+header .logo span {
+    color: #ff0157;
+}
+.pink {
+    color: #ff0157;
+}
+.products-container{
+    display:flex ;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-right: -120px;
+    margin-top: 60px;
+}
+.products-container img{
+    margin-bottom: 120px;
+    margin:10px;
+    width:480px;  
+    padding-left: 110;
+}
+.about {
+    padding: 100px;
+}
+.row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .col50 {
+    position:relative;
+    width: 48%;
+}
+.row .col50 .imgBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.row .col50 .imgBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+.titleText1 {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    font-size: 2em;
+}
+.titleText2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+    margin-top: -50px;
+}
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bttn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .90em .90em;
+    cursor: pointer;
+}
+.bttn-atc {
+    color: white;
+    background-color: #ff0157;
+    border: none;
+}
+.bttn-atc:hover {
+    background-color: #ff4382;
+}
+.bttn-rmv {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.bttn-rmv:hover {
+    background-color: #CC4C4C;
+}
+
+.shop-item-name strong{
+    
+    margin-left: 120px ;
+    font-size: 32px;
+   
+}
+
+.bttn-purchase {
+    display: flex;
+    color: white;
+    background-color: #ff0157;
+    border: none;
+    padding: 20px 90px;
+    font-size: 24px;
+    margin-left: 515px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.bttn-purchase:hover {
+    background-color: #ff4382;
+}
+
+
+
+.shop-item-price{
+    font-size: 28px;
+    margin-left: 120px ;
+}
+
+.cart-row{
+    display: flex;
+    font-size: 28px;
+    justify-content: space-evenly;
+    word-spacing: 30px;
+}
+
+.total-title{
+    display: flex;
+    font-size: 28px;
+    justify-content: space-evenly;
+    word-spacing: 30px
+  
+}
+.total-cart{
+    display: flex;
+    font-size: 28px;
+    justify-content: space-evenly;
+    word-spacing: 30px
+  
+}
+.shop-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.items-cart{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.image-cart{
+    display: flex;
+    justify-content: center;
+}

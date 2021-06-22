@@ -1,0 +1,83 @@
+<?php 
+	session_start();  <!--para daw ni mabutang ang login nga user -->
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Employee Profile</title>
+		<link rel="stylesheet" href="../styles.css">
+		<link rel="stylesheet" href="../navfoot.css">
+		<script src="https://kit.fontawesome.com/1f80b0321b.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<!-- Navbar -->
+
+		<header class="topnav">
+			<section class="wrapper">
+                <a href="#" class="logo">AddJob<span>.</span></a>
+                <a href="login.html">John Doe</a> <!-- IPHP ni nga name sa user -->
+                <a href="login.html">Task</a>		<!-- IPHP ni nga alisdan pagnakalogin ang user -->
+                <input type="text" placeholder="Search">
+            </section>
+        </header>
+
+
+        <!-- content -->
+		
+			<!--Profile -->
+
+			<div class="main">
+				<section class="wrapper">
+
+				<div class="card">
+					<img src="profile.jpg" class="image">
+					<div class="container">
+					  	<h2 class="font">John Doe (name)</h2> <!-- IPHP ni nga name sa user -->
+					  	<div class="service-list">
+							<h3>Services:
+								<!-- IPHP ni skills sa user -->
+									<a href=""><span class="serv">Massage</span></a> 
+									<a href=""><span class="serv">Tutoring</span></a>
+									
+									<!--Pangedit sa services-->
+									<a href=""><span class="fas fa-plus-circle"></span></a> 
+
+								
+							</h3>
+						</div>
+						<!-- IPHP ni nga schedule sa user -->
+						<h3>Schedule: <!--PHP diri-->
+							<a href="">Edit schedule</a>
+						</h3>
+						<a href=""><h3 class='fas fa-sign-out-alt'><span></span>Logout</h3></a>
+					</div>
+				</div>
+
+				<!-- IPHP ni nga about sa user -->
+				<div class='profile-description'>
+					<h1><span class="fas fa-user-alt"></span> Profile</h1>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam pellentesque nec nam aliquam sem et. Rhoncus urna neque viverra justo nec ultrices dui sapien. Sit amet nisl purus in. Nulla facilisi nullam vehicula ipsum a arcu cursus. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Ornare quam viverra orci sagittis eu volutpat odio facilisis mauris. Et odio pellentesque diam volutpat commodo. Tortor posuere ac ut consequat semper viverra. Tincidunt id aliquet risus feugiat in ante metus dictum at. Vulputate odio ut enim blandit volutpat maecenas. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse. Duis at tellus at urna condimentum mattis. Maecenas sed enim ut sem viverra aliquet. Ut enim blandit volutpat maecenas volutpat. Malesuada bibendum arcu vitae elementum curabitur vitae nunc. <span><a href="">Edit</a></span>
+					</p>
+				</div>
+				</section>
+			</div>
+
+			<?php
+
+			?>
+		
+		
+		<!-- Footer -->
+
+   		<div class="footer">
+   			<div class="footer-bottom">
+            	&copy; Aryaknights. All rights Reserved. 2021. 
+	        </div>
+	    </div>
+        
+	</body>
+</html>

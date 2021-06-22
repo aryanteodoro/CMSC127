@@ -1,0 +1,87 @@
+<?php 
+	session_start();  <!--para daw ni mabutang ang login nga user -->
+?>
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Employee Tasks</title>
+		<link rel="stylesheet" href="../styles.css">
+		<link rel="stylesheet" href="../navfoot.css">
+		<script src="https://kit.fontawesome.com/1f80b0321b.js" crossorigin="anonymous"></script>
+	</head>
+
+	<body>
+		<!-- Navbar -->
+
+		<header class="topnav">
+			<section class="wrapper">
+                <a href="#" class="logo">AddJob<span>.</span></a>
+                <a href="login.html">John Doe</a> <!-- IPHP ni nga name sa user -->
+                <a href="login.html">Task</a>		<!-- IPHP ni nga alisdan pagnakalogin ang user -->
+                <input type="text" placeholder="Search">
+            </section>
+        </header>
+
+
+        <!-- content -->
+		
+			<!--task -->
+
+			<div class="main">
+				<section class="wrapper">
+					<h1><span class="fas fa-tasks"></span>Tasks</h1>
+
+				<!-- IPHP ni nga about sa mga task kailangan niya humanon, katong mga nakaschedule sa iyaha -->
+					<div class='task'>
+						<table>
+							<tr>
+								<th>Skill needed</th>
+								<th>Date</th>
+								<th>Time</th>
+								<th>Address</th>
+								<th>Contact Info.</th>
+
+								<!--Pwede ni tanggalon kay javascript naman gud ni
+									Function ani kay para matanggal ang task kung nahuman na ug buhat-->
+								<th>Done?</th>
+							</tr>
+
+							<!-- PHP na diri sugod-->
+							<tr>
+								<td>Massage</td>
+								<td>6/27/2020</td>
+								<td>6 PM</td>
+								<td>Mintal, Davao City</td>
+								<td>+639XXXXXXX</td>
+								<td class="inac"><a href="">  <span class="fas fa-check-square"></span></a></td>
+							</tr>
+							<tr>
+								<td>More</td>
+								<td>Motoo</td>
+								<td>Motoo</td>
+								<td>Examples</td>
+								<td>Here</td>
+								<td class="inac"><a href="">  <span class="fas fa-check-square"></span></a></td>
+							</tr>
+						</table>
+					</div>
+				</section>
+			</div>
+
+			<?php
+
+			?>
+		
+		
+		<!-- Footer -->
+
+   		<div class="footer">
+   			<div class="footer-bottom">
+            	&copy; Aryaknights. All rights Reserved. 2021. 
+	        </div>
+	    </div>
+        
+	</body>
+</html>

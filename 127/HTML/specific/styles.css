@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+	margin: 0;
+}
+.banner{
+	overflow: hidden;
+	height: 60%;
+	width: 100%;
+}
+#banner{
+	/* Full height */
+	width: 100%;
+
+	display: block;
+	z-index: -1;
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 60%; 
+}
+
+#form{
+	position: relative;
+	top: 20%;
+	padding: 20px 20px;
+	overflow: hidden;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	width: 80%;
+	margin: -40px auto 0;
+	border-radius: 20px;
+}
+#form h2{
+	text-align: center;
+}
+#link{
+	margin-left: 40%;
+	font-size: 10px;
+}
+.col{
+	padding-top: 10px;
+	float: left;
+	width: 50%;
+}
+#teeeks{
+	padding: 30px 10px;
+
+}
+
+#selection{
+	overflow: scroll;
+	margin: 0 10px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+.employee img{
+	border-radius: 50%;
+	height: 40px;
+	padding-right: 50px;
+}
+
+
+#selction a{
+
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#faq{
+	padding-top: 10px;
+	width: 100%;
+	overflow: hidden;
+}
+.content {
+  padding: 20px ;
+ 	width: 94%;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+}
+.question {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+	outline: none;
+	border: none;
+	padding: 10px;
+	width: 96.3%;
+}

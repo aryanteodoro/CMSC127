@@ -1,0 +1,140 @@
+/*Navbar */
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 1px 50px;
+    z-index: 1;
+    display: flex;
+    transition: 0.5s;
+    background-color: rgb(10, 10, 10);
+}
+.topnav .logo {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+}
+.topnav .logo span {
+    color: #275A62;
+}
+
+.topnav input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-left: 1em;
+    font-size: 17px;
+}
+.topnav a {
+    color: white;
+    font-weight: 700;
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 0.5em;
+}
+/*Footer*/
+
+
+.footer{
+    padding-top: 40px;
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading{
+    width:20%; 
+    display:inline-flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h3{
+    margin-bottom: 1rem;
+}
+
+.footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+    color:gray;
+    transition: 0.3s ease-out;
+}
+#form{
+    margin-bottom: 1rem;
+
+}
+
+#footer-email{
+    width: 225px;
+    height: 35px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+#footer-email::{
+    color:#b1b1b1;
+}
+
+#footer-email-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 4px;
+    background-color:  #F9423D;
+    outline:none;
+    border:none;
+    color:white;
+    font-size: 1rem;
+}
+
+#footer-email-btn:hover{
+    cursor:pointer;
+    background-color: #7DB0B8;
+    transition: all 0.3s ease-out;
+}
+
+.fb img{
+    width: 55px;
+    height: auto;
+}
+.twitter img{ 
+    width: 50px;
+    height: auto;
+}
+
+.insta img{
+
+    width: 30px;
+    height: auto;
+}
+.email img{
+
+    width: 58px;
+    height: auto;
+}
+
+.footer-container .footer-bottom{
+    background-color: #3C3A3B;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 8px
+    
+}
